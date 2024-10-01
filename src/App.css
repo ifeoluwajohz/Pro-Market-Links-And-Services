@@ -1,0 +1,32 @@
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800 */
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mochiy {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#root{
+  margin: 0 0.6rem;
+  padding: 0.6rem;
+  font-family: "poppins";
+}
+
+
+@media (max-width: 1024px) {
+  #root {
+    padding: 0rem;
+  }
+}
