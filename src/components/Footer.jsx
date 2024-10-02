@@ -1,9 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 
 import '../css/index.css'
 
 const Footer = () => {
+  // const [name, setName] = useState('')
+  const [email, setEmail] = useState('');
+  const [isChecked, setIsChecked] = useState(false)
+  const [error, serError] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if(isChecked) {
+      console.log('Form Submitted:', {email});
+      serError('');
+    }else{
+      serError('Please argree to the terms and conditionsbefore submitting');
+    }
+  }
   return (
     <div>
         <div className="footer bg-gray-200 text-gray-600 flex justify-between p-6 md:p-16">
@@ -41,8 +55,9 @@ const Footer = () => {
               
             </form>
             <div className="flex">
-                <input className="mr-2" type="checkbox" name="checkbox" id="" />
-                <p className="text-sm">send me any update if any</p>
+                <input className="mr-2"  required type="checkbox" name="checkbox" id="" />
+                
+                <p className="text-sm">I agree to the <span className="underline">terms and conditions</span></p>
               </div>
           </div>
         </div>

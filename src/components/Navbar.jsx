@@ -18,16 +18,16 @@ const Navbar = () => {
             <Link to="/faq" className="px-0 md:px-1 py-2 font-semibold text-gray-500 hover:text-yellow-500 hover:underline transition-all duration-500">Blogs</Link>
             <Link to="/service" className="px-0 md:px-1 py-2 font-semibold text-gray-500 hover:text-yellow-500 hover:underline transition-all duration-500">Services</Link>
           </div>
-          <div className="md:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-gray-400 focus:none">
-              <svg className="h-6 w-6 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <div className="md:hidden flex items-center hover:border-none">
+            <button onClick={toggleMenu} className=" focus:outline-none hover:border-none bg-transparent">
+              <svg className="h-6 w-6 transition-transform  duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
               </svg>
             </button>
           </div>
           <div className="flex-shrink-0">
             <div className="font-extrabold text-yellow-500 text-xl p-2">
-              <Link to='/'>TDA</Link>
+              <Link className="text-yellow-600 text-xl font-semibold" to='/'>TDA</Link>
             </div>
           </div>
         </div>
