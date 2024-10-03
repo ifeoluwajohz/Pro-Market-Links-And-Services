@@ -7,6 +7,7 @@ import './App.css'
 import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
+import Faq from './components/Faq';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 
 
       <div id="main">
+      <Faq />
       <Footer />  
       </div>
     </Router>

@@ -10,7 +10,7 @@ export default {
     // "./src/components/Welcome.jsx",
     "./src/components/Services.jsx",
     // "./src/components/Previous_project.jsx",
-    // "./src/components/Faq.jsx",
+    "./src/components/Faq.jsx",
     // "./src/components/Briefdigital.jsx",
     // "./src/components/Briefdev.jsx",
 

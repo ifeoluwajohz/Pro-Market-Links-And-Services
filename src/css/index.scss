@@ -19,18 +19,54 @@
         width: 100%;
     }
 }
-// .main-img{
-//     background: url(https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-desk-BNBzPYhKSAQ);
-//     background-position: center center;
-//     text-align: center;
-//     background-size: cover;
-//     width: 100%;
-//     padding: 0px 20px;
-//     @media (max-width: 1024px) {
-//         width: 100%;
-//     }
-// }
+.about-img{
+    background: url('../assets/contract.jpg');
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    padding: 0px 20px;
+    @media (max-width: 1024px) {
+        width: 100%;
+        height: 100px;
+    }
+}
 
+.under, .under2, .under3{
+    position: relative;
+    
+}
+.under::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: solid 3px #af7914;
+    left: 0;
+    bottom: -10px;
+    border-radius: 60%;
+    height: 8px;
+}
+.under2::after{
+    content: '';
+    position: absolute;
+    width: 15%;
+    border-top: solid 3px #af7914;
+    left: 0;
+    bottom: -10px;
+    border-radius: 50%;
+    height: 8px;
+}
+.under3::after{
+    content: '';
+    position: absolute;
+    width: 15%;
+    border-top: solid 3px #af7914;
+    right: 0;
+    bottom: -10px;
+    border-radius: 50%;
+    height: 8px;
+}
 .showcase{
     display: flex;
     justify-content: space-between;

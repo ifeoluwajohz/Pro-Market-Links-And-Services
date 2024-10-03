@@ -12,24 +12,24 @@ const AnimatedStatistic = ({ end, label, suffix = '' }) => {
         clearInterval(timer);
         return prevCount;
       });
-    }, 90);
+    }, 300);
 
     return () => clearInterval(timer);
   }, [end]);
 
   return (
-    <div className="text-center p-4">
+    <div className="p-4">
       <div className="text-2xl md:text-3xl font-semibold text-yellow-600">
         {count}{suffix}
       </div>
-      <div className="text-gray-600 mt-2">{label}</div>
+      <div className="md:text-lg text-base text-gray-600 mt-2">{label}</div>
     </div>
   );
 };
 
 const StatisticsGrid = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+    <div className="flex text-center md:flex-row flex-col items-center md:justify-between max-w-4xl mx-auto">
       <AnimatedStatistic end={32} label="Company Associated" suffix="+" />
       <AnimatedStatistic end={3} label="Revenue generated" suffix="m+" />
       <AnimatedStatistic end={18} label="Successful projects" suffix="+" />
