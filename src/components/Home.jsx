@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import analysis from '../assets/contract.jpg'
 import StatisticsGrid from './Number'
 
+
 import '../css/index.css'
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
         <p className="text-gray-700 text-sm mb-6">TDA International main goal is to connect SME's and production companies with modern trade stores and open markets</p>
         </div>
         <form className="mb-0 flex">
-          <input type="email" className="px-4 py-1 w-full md:w-2/3 border  focus:outline-gray-300" placeholder='Connect with us via email ...'/>
+          <input type="email" className="px-4 py-1 w-full md:w-2/3 border sm:text-base text-sm font-light focus:outline-gray-300" placeholder='Connect with us via email ...'/>
           <button className=" w-24 bg-gray-700 rounded-none text-gray-100 text-center">Send</button>
           
         </form>

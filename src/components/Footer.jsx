@@ -66,8 +66,8 @@ const Footer = () => {
           <div className="lastflex flex text-xs leading-10 items-center flex-wrap md:text-sm ml:2 md:ml-10 mb-8 md:mb-0">
             <Link to="/about"><p className="px-4">WHO WE ARE</p></Link>|
             <Link to="/service"><p className="px-4">SERVICES</p></Link>|
-            <p className="px-4 leading-loose">OUR PARTNERS</p>|
-            <p className="px-1 sm:px-4">CAPABILITIES</p>
+            <Link to="/"><p className="px-4">OUR PARTNERS</p></Link>|
+            <Link to="/"><p className="px-4">CAPABILITIES</p></Link>
           </div>
         </div>
     </div>
