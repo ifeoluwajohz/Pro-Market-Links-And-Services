@@ -5,16 +5,20 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "What are TDA major services?",
-      answer: "Our major services include digital marketing, SEO, content creation, and social media management."
+      question: "What services does TradeDreams International offer?",
+      answer: "We specialize in connecting SMEs and production companies with modern trade markets, ensuring smooth registration, strategic product placement, and payment facilitation."
     },
     {
-      question: "How can I contact the agency?",
-      answer: "You can contact us via email at contact@agency.com or call us at (123) 456-7890."
+      question: "How can my business get registered with major trade stores?",
+      answer: "TradeDreams International assists in securing approvals and facilitating the registration process with retail chains such as ShopRite, Justrite, and Jendol."
     },
     {
-      question: "What is the agency's pricing model?",
-      answer: "We offer flexible pricing models including hourly rates, project-based pricing, and retainer agreements."
+      question: "How does TradeDreams International support financial transactions?",
+      answer: "We help businesses manage cheque collections, ensure timely payments, and maintain seamless financial operations with trade partners."
+    },
+    {
+      question: "What marketing strategies do you offer?",
+      answer: "We provide in-store promotions, hire brand promoters, and implement targeted marketing strategies to enhance brand visibility and sales."
     }
   ];
 
@@ -27,7 +31,7 @@ const Faq = () => {
       <h1 className="text-lg md:text-2xl font-semibold mb-6 md:mb-10">Frequently Asked Questions (FAQs)</h1>
       {faqs.map((faq, index) => (
         <div key={index} className="text-xl faq my-4">
-          <div onClick={() => toggleMenu(index)} className="flex items-center justify-between mx-2 lg:mx-60">
+          <div onClick={() => toggleMenu(index)} className="flex items-center justify-between mx-2 lg:mx-60 cursor-pointer">
             <p className="text-left text-sm md:text-lg font-medium">{faq.question}</p>
             <button className="text-gray-400 focus:border-none focus:outline-none">
               <svg className={`h-6 w-6 transition-transform duration-300 ${openIndex === index ? 'transform rotate-45' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
