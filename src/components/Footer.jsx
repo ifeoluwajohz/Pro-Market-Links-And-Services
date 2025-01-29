@@ -1,77 +1,115 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom';
-
-import '../css/index.css'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import "../css/index.css";
 
 const Footer = () => {
-  // const [name, setName] = useState('')
-  const [email, setEmail] = useState('');
-  const [isChecked, setIsChecked] = useState(false)
-  const [error, serError] = useState('')
+  const [email, setEmail] = useState("");
+  const [isChecked, setIsChecked] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if(isChecked) {
-      console.log('Form Submitted:', {email});
-      serError('');
-    }else{
-      serError('Please argree to the terms and conditionsbefore submitting');
+    if (!isChecked) {
+      setError("Please agree to the terms and conditions before subscribing.");
+      return;
     }
-  }
+    console.log("Subscribed:", email);
+    setError("");
+    setEmail("");
+  };
+
   return (
-    <div>
-        <div className="footer bg-gray-200 text-gray-600 flex justify-between p-6 md:p-16">
-          <div className="logo left px-8">
-            <h1 className="text-3xl text-gray-600 mb-8 font-semibold">Trade Dreams Achievements</h1>
-            <p className="mb-4 leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit modi ipsa accusamus maxime asperiores eligendi dolores facilis excepturi a omnis? Optio neque magni, provident doloribus eligendi, corrupti iure reprehenderit at eius sunt quae ex itaque tempore possimus dicta! Cum, animi?</p>
-            <div className="social flex flex-start">
-              <svg alt="TDA gmail-address gmail-link" className="w-10 pr-4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25" height="25" viewBox="0 0 48 48">
-              <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"></path><path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"></path><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"></polygon><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"></path><path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
-              </svg>
-              <img alt="TDA facebook-page facebook-link" className="w-10 pr-4" width="25" height="25" src="https://img.icons8.com/ios-filled/50/facebook-new.png"/>
-              <img alt="TDA twitter-page twitter-link" className="w-10 pr-4" width="25" height="25" src="https://img.icons8.com/ios/50/twitterx--v2.png"/>
-              <a href="https://img.icons8.com/?size=100&id=69543&format=png&color=000000" title="tweet icons"></a>
-            </div>
-          </div>
-          <div className="info px-8">
-            <h1 className="text-2xl text-gray-600 mb-10 font-semibold">Information</h1>
-            <div className="flex pb-2">
-              <p className="">+2348026144324</p>
-            </div>
-            <div className="flex pb-2">
-              <p className="">Tradedreamsa@gmail.com</p>
-            </div>
-            <div className="flex pb-2 items-baseline">
-              <p className="">No 6, Lorem ipsum dolor mi corrupti velit.</p>
-            </div>
-          </div>
-
-
-          <div className="subscribe left px-8">
-            <h1 className="text-2xl text-gray-600 mb-8 font-semibold">Subscribe Now</h1>
-            <form className="mb-0 flex">
-              <input type="email" className="px-4 py-1  focus:outline-gray-300" placeholder='Email Address'/>
-              <button className=" w-full bg-gray-600 rounded-none text-gray-100 text-center">Send</button>
-              
-            </form>
-            <div className="flex">
-                <input className="mr-2"  required type="checkbox" name="checkbox" id="" />
-                
-                <p className="text-sm">I agree to the <span className="underline">terms and conditions</span></p>
-              </div>
-          </div>
+    <footer className="bg-gray-950 text-gray-300 py-12 px-6 md:px-16">
+      {/* Main Footer Content */}
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        {/* Brand Section */}
+        <div>
+          <h1 className="text-2xl font-semibold text-white mb-4">
+            Trade Dreams Achievements
+          </h1>
+          <p className="text-gray-400 leading-7">
+            Empowering traders with top-tier insights and data-driven strategies for success.
+          </p>
         </div>
-        <div className="last mt-1 p-4 flex text-center flex-col-reverse px-8 md:px-12 bg-gray-200 text-gray-600 md:flex-row  md:justify-between">
-          <p className="ml:2 md:ml-10 text-left ">2024 <span className="text-black"> BrandName.</span>All Rights Reserved. </p>
-          <div className="lastflex flex text-xs leading-10 items-center flex-wrap md:text-sm ml:2 md:ml-10 mb-8 md:mb-0">
-            <Link to="/about"><p className="px-4">WHO WE ARE</p></Link>|
-            <Link to="/service"><p className="px-4">SERVICES</p></Link>|
-            <Link to="/"><p className="px-4">OUR PARTNERS</p></Link>|
-            <Link to="/"><p className="px-4">CAPABILITIES</p></Link>
-          </div>
-        </div>
-    </div>
-  )
-}
 
-export default Footer
+        {/* Links Section */}
+        <div>
+          <h2 className="text-lg font-medium text-white mb-4">Quick Links</h2>
+          <nav className="space-y-2">
+            <Link to="/about" className="block hover:text-gray-100 transition">
+              Who We Are
+            </Link>
+            <Link to="/service" className="block hover:text-gray-100 transition">
+              Our Services
+            </Link>
+            <Link to="/" className="block hover:text-gray-100 transition">
+              Our Partners
+            </Link>
+            <Link to="/" className="block hover:text-gray-100 transition">
+              Capabilities
+            </Link>
+          </nav>
+        </div>
+
+        {/* Contact Section */}
+        <div>
+          <h2 className="text-lg font-medium text-white mb-4">Contact Us</h2>
+          <ul className="space-y-2 text-gray-400">
+            <li>📞 +234 802 614 4324</li>
+            <li>📧 tradedreamsa@gmail.com</li>
+            <li>📍 No 6, Lorem ipsum dolor, Nigeria</li>
+          </ul>
+        </div>
+
+        {/* Subscription Form */}
+        <div>
+          <h2 className="text-lg font-medium text-white mb-4">Stay Updated</h2>
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <input
+              type="email"
+              className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-600"
+              placeholder="Enter your email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+            <div className="flex items-center text-gray-400 text-sm">
+              <input
+                type="checkbox"
+                id="terms"
+                checked={isChecked}
+                onChange={() => setIsChecked(!isChecked)}
+                className="mr-2"
+              />
+              <label htmlFor="terms">
+                I agree to the{" "}
+                <span className="underline cursor-pointer">terms and conditions</span>.
+              </label>
+            </div>
+            {error && <p className="text-red-500 text-sm">{error}</p>}
+            <button
+              type="submit"
+              className="w-full bg-blue-600 hover:bg-blue-500 transition text-white py-2 rounded-lg font-medium"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+
+      {/* Footer Bottom */}
+      <div className="border-t border-gray-800 mt-12 pt-6 text-gray-500 text-sm text-center">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+          <p>© {new Date().getFullYear()} Trade Dreams Achievements. All Rights Reserved.</p>
+          <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6">
+            <Link to="/" className="hover:text-gray-100">Privacy Policy</Link>
+            <Link to="/" className="hover:text-gray-100">Terms of Service</Link>
+            <Link to="/" className="hover:text-gray-100">Support</Link>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

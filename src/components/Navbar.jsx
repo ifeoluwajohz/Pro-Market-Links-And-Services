@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
           <div className="flex-shrink-0">
             <div className="font-extrabold text-yellow-500 text-xl p-2">
-              <Link className="text-yellow-600 text-xl font-semibold" to='/'>TDA</Link>
+              <Link className="text-yellow-600 text-xl font-semibold" to='/'>PMLS</Link>
             </div>
           </div>
         </div>

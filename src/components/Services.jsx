@@ -58,22 +58,23 @@ const Services = () => {
         </div>
       </div>
       <div className="card md:flex flex-row gap-3 items-start md:mx-16 lg:mx-24 mx-1">
-        <div className="flex flex-col bg-green-200 rounded-lg shadow-lg py-6 px-4 w-full md:w-2/4 mt-2">
-          <div className="text-base md:text-xl font-bold text-green-900 my-2">HelpOrg International's Unique Solutions</div><p className="mb-2 text-sm font-sans">Physical and personal interaction with customers yield more sales report than the estimated means. Here are some of the ways we can help you alleviate your workloads:</p>
-            <ul className="space-y-4">
-              <li className="flex items-start space-x-2"><span className="text-green-500">✔</span><p className="md:text-normal text-sm md:font-normal font-light">We can liase with distributors to get brand's product to these stores</p></li>
-              <li className="flex items-start space-x-2"><span className="text-green-500">✔</span><p className="md:text-normal text-sm md:font-normal font-light">Communicate directly with market women, hawkers, etc.</p></li>
-            </ul>
-        </div>
-
-        <div className="flex flex-col bg-red-200 rounded-lg shadow-lg py-6 px-4 w-full md:w-1/2 mt-4 md:mt-8">
-          <div className="text-base md:text-xl font-bold text-red-900 my-4">Target Audience's Pain points</div>
-            <ul className="space-y-4">
-              <li className="flex items-start space-x-2"><span className="text-red-500 ">x</span><p className="md:text-normal text-sm md:font-normal font-light ">Inability to recruit accounts. A lot of companies struggle and strive to get their products approved in many well-known stores/supermakets.</p></li>
-              <li className="flex items-start space-x-2"><span className="text-red-500">x</span><p className="md:text-normal text-sm md:font-normal font-light">Thin access to distributors and wholesalers</p></li>
-              <li className="flex items-start space-x-2"><span className="text-red-500">x</span><p className="md:text-normal text-sm md:font-normal font-light">Inability to sign the right documents with distributors</p></li>
-            </ul>
-        </div>
+      
+      <div className="flex flex-col bg-red-200 rounded-lg shadow-lg py-6 px-4 w-full md:w-1/2 mt-4 md:mt-8">
+        <div className="text-base md:text-xl font-bold text-red-900 my-4">Target Audience's Pain points</div>
+          <ul className="space-y-4">
+            <li className="flex items-start space-x-2"><span className="text-red-500 ">x</span><p className="md:text-normal text-sm md:font-normal font-light ">Inability to recruit accounts. A lot of companies struggle and strive to get their products approved in many well-known stores/supermakets.</p></li>
+            <li className="flex items-start space-x-2"><span className="text-red-500">x</span><p className="md:text-normal text-sm md:font-normal font-light">Thin access to distributors and wholesalers</p></li>
+            <li className="flex items-start space-x-2"><span className="text-red-500">x</span><p className="md:text-normal text-sm md:font-normal font-light">Inability to sign the right documents with distributors</p></li>
+          </ul>
+      </div>
+      <div className="flex flex-col bg-green-200 rounded-lg shadow-lg py-6 px-4 w-full md:w-2/4 mt-2">
+        <div className="text-base md:text-xl font-bold text-green-900 my-2">HelpOrg International's Unique Solutions</div>
+        <p className="mb-2 text-sm font-sans">Physical and personal interaction with customers yield more sales report than the estimated means. Here are some of the ways we can help you alleviate your workloads:</p>
+        <ul className="space-y-4">
+          <li className="flex items-start space-x-2"><span className="text-green-500">✔</span><p className="md:text-normal text-sm md:font-normal font-light">We can liase with distributors to get brand's product to these stores</p></li>
+          <li className="flex items-start space-x-2"><span className="text-green-500">✔</span><p className="md:text-normal text-sm md:font-normal font-light">Communicate directly with market women, hawkers, etc.</p></li>
+        </ul>
+      </div>
       </div>
     </div>
   );
