@@ -30,7 +30,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://source.unsplash.com/400x300/?industry,factory"
+              src="https://plus.unsplash.com/premium_photo-1663011185140-4b08ca98c94c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VwZXJzdG9yZXxlbnwwfHwwfHx8MA%3D%3D"
               alt="Industry"
               className="rounded-lg shadow-lg"
             />
@@ -51,7 +51,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://source.unsplash.com/400x300/?warehouse,business"
+              src="https://media.istockphoto.com/id/2157998608/photo/multiracial-warehouse-workers-engaged-in-daily-operations.webp?a=1&b=1&s=612x612&w=0&k=20&c=r-WmnAVHCdIJk6t0jQO9yDrvWWY64vEGm_2XnC7mkc8="
               alt="Trade"
               className="rounded-lg shadow-lg"
             />
@@ -72,7 +72,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://source.unsplash.com/400x300/?business,teamwork"
+              src="https://plus.unsplash.com/premium_photo-1661573729122-6619f62ef0ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRlYW13b3JrfGVufDB8fDB8fHww"
               alt="Business"
               className="rounded-lg shadow-lg"
             />
