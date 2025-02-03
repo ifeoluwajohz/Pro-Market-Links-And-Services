@@ -25,10 +25,10 @@ const Footer = () => {
         {/* Brand Section */}
         <div>
           <h1 className="text-2xl font-semibold text-white mb-4">
-            Trade Dreams Achievements
+            Promaket Links and Services
           </h1>
           <p className="text-gray-400 leading-7">
-            Empowering traders with top-tier insights and data-driven strategies for success.
+            Gain access to the market. Get more visibility. Make more sales.
           </p>
         </div>
 
@@ -37,16 +37,16 @@ const Footer = () => {
           <h2 className="text-lg font-medium text-white mb-4">Quick Links</h2>
           <nav className="space-y-2">
             <Link to="/about" className="block hover:text-gray-100 transition">
-              Who We Are
+              About Us
             </Link>
             <Link to="/service" className="block hover:text-gray-100 transition">
               Our Services
             </Link>
-            <Link to="/" className="block hover:text-gray-100 transition">
+            <Link to="/partners" className="block hover:text-gray-100 transition">
               Our Partners
             </Link>
-            <Link to="/" className="block hover:text-gray-100 transition">
-              Capabilities
+            <Link to="/terms" className="block hover:text-gray-100 transition">
+              Terms & Conditions
             </Link>
           </nav>
         </div>
@@ -55,9 +55,9 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-medium text-white mb-4">Contact Us</h2>
           <ul className="space-y-2 text-gray-400">
-            <li>📞 +234 802 614 4324</li>
-            <li>📧 tradedreamsa@gmail.com</li>
-            <li>📍 No 6, Lorem ipsum dolor, Nigeria</li>
+            <li>📞 +234 123 456 7890</li>
+            <li>📧 contact@promaket.com</li>
+            <li>📍 Nigeria</li>
           </ul>
         </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
               />
               <label htmlFor="terms">
                 I agree to the{" "}
-                <span className="underline cursor-pointer">terms and conditions</span>.
+                <span className="underline cursor-pointer"><Link to="/terms">terms and conditions</Link></span>.
               </label>
             </div>
             {error && <p className="text-red-500 text-sm">{error}</p>}
@@ -100,11 +100,11 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="border-t border-gray-800 mt-12 pt-6 text-gray-500 text-sm text-center">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-          <p>© {new Date().getFullYear()} Trade Dreams Achievements. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} Promaket Links and Services. All Rights Reserved.</p>
           <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6">
-            <Link to="/" className="hover:text-gray-100">Privacy Policy</Link>
-            <Link to="/" className="hover:text-gray-100">Terms of Service</Link>
-            <Link to="/" className="hover:text-gray-100">Support</Link>
+            <Link to="/privacy" className="hover:text-gray-100">Privacy Policy</Link>
+            <Link to="/terms" className="hover:text-gray-100">Terms of Service</Link>
+            <Link to="/support" className="hover:text-gray-100">Support</Link>
           </nav>
         </div>
       </div>

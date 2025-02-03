@@ -25,16 +25,16 @@ const Home = () => {
       {/* Hero Section */}
       <div className="main-img text-center md:text-left lg:flex px-6 md:px-16 lg:px-24 py-12 bg-gray-100">
         <div className="flex flex-col justify-center w-full md:w-3/5 mb-6 md:mb-0">
-          <p className="text-gray-500 mb-4 text-lg uppercase tracking-wider">Empowering Businesses</p>
+          <p className="text-gray-500 mb-4 text-lg uppercase tracking-wider">Gain access to the market</p>
           <h1 className="text-gray-800 text-3xl md:text-5xl font-bold leading-tight mb-6">
-            Transform <span className="text-blue-600">Your Business</span> with TradeDreams International
+          Get more visibility,<span className="text-blue-600"> make more sales</span>
           </h1>
           <p className="text-gray-600 text-md md:text-lg mb-6">
             We help SMEs and production companies gain seamless access to modern trade stores and open markets.
           </p>
         </div>
         <div className="md:w-2/5 w-full flex justify-center">
-          <img className="w-full rounded-lg shadow-lg" src={analysis} alt="Market Analysis" />
+          <img className="w-full rounded-lg shadow-lg" src="https://plus.unsplash.com/premium_photo-1661381015121-f7fcb9aa6768?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgxfHxzdXBlcm1hcmtldHxlbnwwfHwwfHx8MA%3D%3D" alt="Market Analysis" />
         </div>
       </div>
 
@@ -42,8 +42,7 @@ const Home = () => {
       <div className="max-w-6xl mx-auto px-6 md:px-16 py-12 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">What We Do</h2>
         <p className="text-lg text-gray-600 mb-6">
-          TradeDreams International connects businesses with modern trade markets, ensuring product placement in top retail chains. 
-          We help companies secure approvals, manage financial transactions, and develop marketing strategies to boost brand visibility.
+        Promaket Links and Services is a registered marketing company that helps small businesses and production companies to gain access to modern trade market such as ShopRite, Justrite, Jendol, etc, and open markets. Through their expertise, they serve as a linking point between production companies, modern trade stores and open markets.
         </p>
         <p className="text-lg text-gray-600 mb-6">
           Our services include account recruitment, promotional staffing, and seamless cheque processing to ensure smooth trade operations. 

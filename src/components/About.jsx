@@ -22,7 +22,7 @@ const About = () => {
               Our Mission
             </h2>
             <p className="text-gray-400 text-lg leading-7">
-              TradeDreams International is committed to helping SMEs and production companies gain seamless access to modern trade markets such as ShopRite, Justrite, and Jendol, ensuring efficient market penetration and financial fluidity.
+            Promaket Links and Services is committed to helping SMEs and production companies gain seamless access to modern trade markets such as ShopRite, Justrite, and Jendol, ensuring efficient market penetration and financial fluidity.
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
@@ -41,7 +41,7 @@ const About = () => {
               Core Objectives
             </h2>
             <p className="text-gray-400 text-lg leading-7 text-right">
-              We provide account recruitment, strategic product placement, and seamless cheque processing, ensuring smooth trade relationships between businesses and modern trade stores.
+            Promaket Links and Services’ main goal is to connect SMEs and production companies with modern trade stores and open markets. Also, this brand is actively concerned with ensuring that there is a seamless exchange of services and money between the stores and the companies. 
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
@@ -60,12 +60,12 @@ const About = () => {
               Who We Serve
             </h2>
             <p className="text-gray-400 text-lg leading-7">
-              We focus on small business owners and production companies, helping them establish strong trade relationships with key retailers and wholesalers for optimal market penetration.
+            We are committed to helping small businesses and production companies gain access into the sales floor of modern trade stores and open markets.
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="https://plus.unsplash.com/premium_photo-1661573729122-6619f62ef0ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRlYW13b3JrfGVufDB8fDB8fHww"
+              src="https://plus.unsplash.com/premium_photo-1661381007965-b21e0fb0681b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN1cGVybWFya2V0fGVufDB8fDB8fHww"
               alt="Business"
               className="rounded-lg shadow-lg"
             />
