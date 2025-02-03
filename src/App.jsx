@@ -8,7 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Services from './components/Services';
 import Faq from './components/Faq';
-import TermsAndConditions from './components/TermsAndConditions';
+import TermsAndConditions from './components/TermsAndConditions'
 
 function App() {
 
@@ -20,9 +20,11 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/service' element={<Services />} />
-        <Route path='/terms' elememt={<TermsAndConditions/>} />
+        <Route path='/terms' element={<TermsAndConditions />} />
 
       </Routes>
+
+
 
 
       <div id="main">

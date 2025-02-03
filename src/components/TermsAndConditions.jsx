@@ -2,7 +2,6 @@ import React from 'react'
 
 const TermsAndConditions = () => {
   return (
-    <div>
         <section className="min-h-screen bg-gray-100 py-12 px-4">
       <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow">
         <h1 className="text-3xl font-bold text-center mb-6">
@@ -46,7 +45,6 @@ const TermsAndConditions = () => {
         </p>
       </div>
     </section>
-    </div>
   )
 }
 
