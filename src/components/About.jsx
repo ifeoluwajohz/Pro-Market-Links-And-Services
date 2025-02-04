@@ -22,7 +22,7 @@ const About = () => {
               Our Mission
             </h2>
             <p className="text-gray-400 text-lg leading-7">
-            Promaket Links and Services is committed to helping SMEs and production companies gain seamless access to modern trade markets such as ShopRite, Justrite, and Jendol, ensuring efficient market penetration and financial fluidity.
+            Promaket Links and Services is committed to helping SMEs and production companies gain seamless access to open market and modern trade markets such as ShopRite, Justrite, and Jendol, ensuring efficient market penetration and financial fluidity.
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
@@ -35,7 +35,7 @@ const About = () => {
         </div>
 
         {/* Core Objectives */}
-        <div className="flex flex-col md:flex-row-reverse items-center">
+        <div className="flex flex-col md:flex-row-reverse items-center gap-2">
           <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <h2 className="text-3xl font-semibold text-gray-400 mb-4 border-r-4 border-yellow-500 pr-4 text-right">
               Core Objectives

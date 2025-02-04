@@ -56,7 +56,7 @@ const Footer = () => {
           <h2 className="text-lg font-medium text-white mb-4">Contact Us</h2>
           <ul className="space-y-2 text-gray-400">
             <li>📞 +234 123 456 7890</li>
-            <li>📧 contact@promaket.com</li>
+            <li className="text-shrink">📧 promaketlinksandservices@gmail.com</li>
             <li>📍 Nigeria</li>
           </ul>
         </div>
