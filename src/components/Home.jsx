@@ -54,18 +54,64 @@ const Home = () => {
       </div>
 
       {/* Quick Contact Section */}
-      <div className="bg-yellow-600 py-8 px-2 md:px-16 lg:px-24 text-center text-white shadow-md">
+      <div className="bg-yellow-50 py-8 px-2 md:px-16 lg:px-24 text-center text-gray-600 shadow-md">
         <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
-        <p className="text-lg mb-6">Have questions? Reach out to us and let’s discuss how we can support your business growth.</p>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-          <a href="mailto:contact@tradedreams.com" className="bg-white text-blue-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-200 transition">
-            ✉ Email Us
+        <p className="text-lg mb-6">
+          Have questions? Reach out to us and let’s discuss how we can support your business growth.
+        </p>
+        <div className="flex flex-row justify-center gap-5 items-center">
+          {/* Gmail */}
+          <a href="mailto:promaketlinksandservices@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Gmail"
+            />
           </a>
-          <p className="text-lg">
-            ☎ +234 812 345 6789
-          </p>
+          {/* Facebook */}
+          <a href="https://www.facebook.com/profile.php?id=61568311595650&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Facebook"
+            />
+          </a>
+          {/* WhatsApp */}
+          <a href="https://wa.me/+2349069932640" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=uZWiLUyryScN&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services WhatsApp"
+            />
+          </a>
+          {/* TikTok */}
+          <a href="https://www.tiktok.com/@promaket.links.and?_t=ZM-8tdBVxgUcej&_r=1" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=118640&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services TikTok"
+            />
+          </a>
+          {/* Instagram */}
+          <a href="https://www.instagram.com/proma.ket" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Instagram"
+            />
+          </a>
+          {/* Twitter */}
+          <a href="https://twitter.com/promaket_" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Twitter"
+            />
+          </a>
         </div>
       </div>
+
+
 
       {/* Statistics Section */}
       <div className="text-center items-center px-2 md:px-16 lg:px-24 py-12 bg-gray-900 text-white rounded-lg mt-8">

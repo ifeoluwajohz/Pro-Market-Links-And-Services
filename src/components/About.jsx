@@ -7,8 +7,8 @@ const About = () => {
       {/* Header Section */}
       <div className="about-img bg-cover bg-center h-60 sm:h-80 md:h-96 relative">
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wider">
-            About TradeDreams International
+          <h1 className="text-4xl md:text-5xl font-bold text-white tracking-wider uppercase">
+            About Promaket Links and Services
           </h1>
         </div>
       </div>
@@ -41,7 +41,7 @@ const About = () => {
               Core Objectives
             </h2>
             <p className="text-gray-400 text-lg leading-7 text-right">
-            Promaket Links and Services’ main goal is to connect SMEs and production companies with modern trade stores and open markets. Also, this brand is actively concerned with ensuring that there is a seamless exchange of services and money between the stores and the companies. 
+            Promaket Links and Services main goal is to connect SMEs and production companies with modern trade stores and open markets. Also, this brand is actively concerned with ensuring that there is a seamless exchange of services and money between the stores and the companies. 
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
@@ -73,6 +73,64 @@ const About = () => {
         </div>
       </div>
 
+      {/* Quick Contact Section */}
+      <div className="bg-yellow-50 py-8 px-2 md:px-16 lg:px-24 text-center text-gray-600 shadow-md">
+        <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
+        <p className="text-lg mb-6">
+          Have questions? Reach out to us and let’s discuss how we can support your business growth.
+        </p>
+        <div className="flex flex-row justify-center gap-5 items-center">
+          {/* Gmail */}
+          <a href="mailto:promaketlinksandservices@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Gmail"
+            />
+          </a>
+          {/* Facebook */}
+          <a href="https://www.facebook.com/profile.php?id=61568311595650&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Facebook"
+            />
+          </a>
+          {/* WhatsApp */}
+          <a href="https://wa.me/+2349069932640" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=uZWiLUyryScN&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services WhatsApp"
+            />
+          </a>
+          {/* TikTok */}
+          <a href="https://www.tiktok.com/@promaket.links.and?_t=ZM-8tdBVxgUcej&_r=1" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=118640&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services TikTok"
+            />
+          </a>
+          {/* Instagram */}
+          <a href="https://www.instagram.com/proma.ket" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Instagram"
+            />
+          </a>
+          {/* Twitter */}
+          <a href="https://twitter.com/promaket_" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000"
+              className="w-10"
+              alt="Promaket Links and Services Twitter"
+            />
+          </a>
+        </div>
+      </div>
+
       {/* Contact Us Section */}
       <div className="bg-gray-800 py-16 px-6 text-center text-gray-300">
         <h2 className="text-3xl font-bold text-yellow-500 mb-6">Contact Us</h2>
@@ -90,6 +148,8 @@ const About = () => {
           <button type="submit" className="w-full py-3 bg-yellow-500 text-gray-900 font-semibold rounded-lg hover:bg-yellow-600 transition">Send Message</button>
         </form>
       </div>
+
+      
     </section>
   );
 };
