@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="main-img text-center md:text-left lg:flex px-6 md:px-16 lg:px-24 py-12 bg-gray-100">
+      <div className="main-img text-center md:text-left lg:flex px-2 md:px-16 lg:px-24 py-12 bg-gray-100">
         <div className="flex flex-col justify-center w-full md:w-3/5 mb-6 md:mb-0">
           <p className="text-gray-500 mb-4 text-lg uppercase tracking-wider">Gain access to the market</p>
           <h1 className="text-gray-800 text-3xl md:text-5xl font-bold leading-tight mb-6">
@@ -39,7 +39,7 @@ const Home = () => {
       </div>
 
       {/* About Our Services */}
-      <div className="max-w-6xl mx-auto px-6 md:px-16 py-12 text-center bg-blue-50">
+      <div className="max-w-6xl mx-auto px-2 md:px-16 py-12 text-center bg-blue-50">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">What We Do</h2>
         <p className="text-lg text-gray-600 mb-6">
         Promaket Links and Services is a registered marketing company that helps small businesses and production companies to gain access to modern trade market such as ShopRite, Justrite, Jendol, etc, and open markets. Through their expertise, they serve as a linking point between production companies, modern trade stores and open markets.
@@ -54,7 +54,7 @@ const Home = () => {
       </div>
 
       {/* Quick Contact Section */}
-      <div className="bg-yellow-600 py-8 px-6 md:px-16 lg:px-24 text-center text-white shadow-md">
+      <div className="bg-yellow-600 py-8 px-2 md:px-16 lg:px-24 text-center text-white shadow-md">
         <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
         <p className="text-lg mb-6">Have questions? Reach out to us and let’s discuss how we can support your business growth.</p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
@@ -68,7 +68,7 @@ const Home = () => {
       </div>
 
       {/* Statistics Section */}
-      <div className="text-center px-6 md:px-16 lg:px-24 py-12 bg-gray-900 text-white rounded-lg mt-8">
+      <div className="text-center items-center px-2 md:px-16 lg:px-24 py-12 bg-gray-900 text-white rounded-lg mt-8">
         <h2 className="text-lg uppercase tracking-wide mb-2">Why Choose Us</h2>
         <h1 className="text-2xl md:text-4xl font-bold mb-6">Your Success, Our Commitment</h1>
         <StatisticsGrid />

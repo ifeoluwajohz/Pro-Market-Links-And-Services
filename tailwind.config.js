@@ -8,7 +8,7 @@ export default {
      "./src/components/TermsAndConditions.jsx",
 
     "./src/components/Navbar.jsx",
-    // "./src/components/Welcome.jsx",
+    "./src/components/Number.jsx",
     "./src/components/Services.jsx",
     // "./src/components/Previous_project.jsx",
     "./src/components/Faq.jsx",

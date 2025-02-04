@@ -30,14 +30,14 @@ const Navbar = () => {
   return (
     <nav className={`navbar shadow-lg sticky top-0 z-50 flex items-center justify-between px-6 h-16 ${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
       <div className="text-2xl font-bold text-green-600">
-        <Link to='/'>PMLS</Link>
+        <Link className='text-blue-400' to='/'>PMLS</Link>
       </div>
       
       <div className="hidden md:flex space-x-6">
-        <Link to="/" className="hover:text-green-600 transition-all">Home</Link>
-        <Link to="/about" className="hover:text-green-600 transition-all">About</Link>
-        <Link to="/faq" className="hover:text-green-600 transition-all">Blogs</Link>
-        <Link to="/service" className="hover:text-green-600 transition-all">Services</Link>
+        <Link to="/" className="hover:text-gray-200 transition-all">Home</Link>
+        <Link to="/about" className="hover:text-gray-200 transition-all">About</Link>
+        <Link to="/faq" className="hover:text-gray-200 transition-all">Blogs</Link>
+        <Link to="/service" className="hover:text-gray-200 transition-all">Services</Link>
       </div>
       
       <div className="flex items-center">
@@ -59,11 +59,11 @@ const Navbar = () => {
       
       <div className={`md:hidden absolute top-16 left-0 w-full transition-all duration-300 ${isOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'}`}>
         <div className={`flex flex-col space-y-4 p-4 shadow-md ${theme === 'dark' ? 'bg-gray-800 text-white' : 'bg-gray-50 text-gray-900'}`}>
-          <Link to="/" className="hover:text-green-600 transition-all">Home</Link>
-          <Link to="/about" className="hover:text-green-600 transition-all">About</Link>
-          <Link to="/faq" className="hover:text-green-600 transition-all">Blogs</Link>
-          <Link to="/service" className="hover:text-green-600 transition-all">Services</Link>
-          <Link to="/our-client" className="text-center py-2 px-4 bg-green-600 text-white rounded-md hover:bg-green-700 transition-all">Let's Talk</Link>
+          <Link to="/" className="text-blue-300 hover:text-gray-200 transition-all">Home</Link>
+          <Link to="/about" className="text-blue-300 hover:text-gray-200 transition-all">About</Link>
+          <Link to="/faq" className="text-blue-300 hover:text-gray-200 transition-all">Blogs</Link>
+          <Link to="/service" className="text-blue-300 hover:text-gray-200 transition-all">Services</Link>
+          <Link to="/our-client" className="text-center py-2 px-4 bg-yellow-500 text-white rounded-md hover:bg-yellow-700 hover:text-white transition-all">Let's Talk</Link>
         </div>
       </div>
     </nav>
