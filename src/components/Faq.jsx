@@ -5,15 +5,15 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "What services does TradeDreams International offer?",
+      question: "What services does Promaket Links and Services offer?",
       answer: "We specialize in connecting SMEs and production companies with modern trade markets, ensuring smooth registration, strategic product placement, and payment facilitation."
     },
     {
       question: "How can my business get registered with major trade stores?",
-      answer: "TradeDreams International assists in securing approvals and facilitating the registration process with retail chains such as ShopRite, Justrite, and Jendol."
+      answer: "Promaket Links and Services assists in securing approvals and facilitating the registration process with retail chains such as ShopRite, Justrite, and Jendol."
     },
     {
-      question: "How does TradeDreams International support financial transactions?",
+      question: "How does Promaket Links and Services support financial transactions?",
       answer: "We help businesses manage cheque collections, ensure timely payments, and maintain seamless financial operations with trade partners."
     },
     {

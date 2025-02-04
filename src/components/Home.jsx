@@ -39,7 +39,7 @@ const Home = () => {
       </div>
 
       {/* About Our Services */}
-      <div className="max-w-6xl mx-auto px-6 md:px-16 py-12 text-center">
+      <div className="max-w-6xl mx-auto px-6 md:px-16 py-12 text-center bg-blue-50">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">What We Do</h2>
         <p className="text-lg text-gray-600 mb-6">
         Promaket Links and Services is a registered marketing company that helps small businesses and production companies to gain access to modern trade market such as ShopRite, Justrite, Jendol, etc, and open markets. Through their expertise, they serve as a linking point between production companies, modern trade stores and open markets.
@@ -48,13 +48,13 @@ const Home = () => {
           Our services include account recruitment, promotional staffing, and seamless cheque processing to ensure smooth trade operations. 
           We work closely with SMEs to enhance their market presence and scale their business efficiently.
         </p>
-        <Link to="/about" className="bg-yellow-500 text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-yellow-600 transition">
+        <Link to="/about" className="bg-yellow-500 text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-white transition">
           View More
         </Link>
       </div>
 
       {/* Quick Contact Section */}
-      <div className="bg-blue-600 py-8 px-6 md:px-16 lg:px-24 text-center text-white rounded-lg shadow-md">
+      <div className="bg-yellow-600 py-8 px-6 md:px-16 lg:px-24 text-center text-white shadow-md">
         <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
         <p className="text-lg mb-6">Have questions? Reach out to us and let’s discuss how we can support your business growth.</p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-4">
