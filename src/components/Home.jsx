@@ -64,7 +64,7 @@ const Home = () => {
           <a href="mailto:promaketlinksandservices@gmail.com" target="_blank" rel="noopener noreferrer">
             <img
               src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000"
-              className="w-10"
+              className="w-7 md:w-10"
               alt="Promaket Links and Services Gmail"
             />
           </a>
@@ -72,7 +72,7 @@ const Home = () => {
           <a href="https://www.facebook.com/profile.php?id=61568311595650&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
             <img
               src="https://img.icons8.com/?size=100&id=118467&format=png&color=000000"
-              className="w-10"
+              className="w-7 md:w-10"
               alt="Promaket Links and Services Facebook"
             />
           </a>
@@ -80,7 +80,7 @@ const Home = () => {
           <a href="https://wa.me/+2349069932640" target="_blank" rel="noopener noreferrer">
             <img
               src="https://img.icons8.com/?size=100&id=uZWiLUyryScN&format=png&color=000000"
-              className="w-10"
+              className="w-7 md:w-10"
               alt="Promaket Links and Services WhatsApp"
             />
           </a>
@@ -88,7 +88,7 @@ const Home = () => {
           <a href="https://www.tiktok.com/@promaket.links.and?_t=ZM-8tdBVxgUcej&_r=1" target="_blank" rel="noopener noreferrer">
             <img
               src="https://img.icons8.com/?size=100&id=118640&format=png&color=000000"
-              className="w-10"
+              className="w-7 md:w-10"
               alt="Promaket Links and Services TikTok"
             />
           </a>
@@ -96,7 +96,7 @@ const Home = () => {
           <a href="https://www.instagram.com/proma.ket" target="_blank" rel="noopener noreferrer">
             <img
               src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000"
-              className="w-10"
+              className="w-7 md:w-10"
               alt="Promaket Links and Services Instagram"
             />
           </a>
@@ -104,7 +104,7 @@ const Home = () => {
           <a href="https://twitter.com/promaket_" target="_blank" rel="noopener noreferrer">
             <img
               src="https://img.icons8.com/?size=100&id=ClbD5JTFM7FA&format=png&color=000000"
-              className="w-10"
+              className="w-7 md:w-10"
               alt="Promaket Links and Services Twitter"
             />
           </a>
